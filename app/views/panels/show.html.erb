@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @panel.title %>
+</p>
+
+<p>
+  <strong>Width:</strong>
+  <%= @panel.width %>
+</p>
+
+<p>
+  <strong>Height:</strong>
+  <%= @panel.height %>
+</p>
+
+<p>
+  <strong>Page:</strong>
+  <%= @panel.page %>
+</p>
+
+<p>
+  <strong>Hovertext:</strong>
+  <%= @panel.hovertext %>
+</p>
+
+<p>
+  <strong>Comment:</strong>
+  <%= @panel.comment %>
+</p>
+
+<%= link_to 'Edit', edit_panel_path(@panel) %> |
+<%= link_to 'Back', panels_path %>
